@@ -1,1 +1,1 @@
-web: gunicorn app:app --log-file=-
+web: gunicorn attendance_system_facial_recognition.wsgi --log-file=-
